@@ -5,8 +5,8 @@ import numpy as np
 
 num_images = 30000 # number of images
 sub_index = 0 # the index of ground truth instance
-image_path = 'images\\val_annos\\'
-json_path = 'images\\val\\'
+image_path = 'images\\annotation\\'
+json_path = 'images\\dataset\\'
 json_name = 'deepfashion2.json'
 
 dataset = {

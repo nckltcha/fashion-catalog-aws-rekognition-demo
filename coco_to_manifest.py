@@ -3,6 +3,8 @@ import datetime
 from datetime import datetime
 import boto3
 import PIL.Image as Image
+from pathlib import Path
+
 
 #S3 location for images
 s3_bucket = 'clothing-recognition' # use the s3 bucket name
@@ -12,7 +14,7 @@ s3_path = 's3://' + s3_bucket  + '/' + s3_key_path_images
 s3 = boto3.resource('s3')
 
 #Local file information
-local_path = 'C:\\Users\\pc\\Documents\\Trackit\\DeepFashion\\' # put the folder path
+local_path = Path.cwd()
 coco_manifest = 'deepfashion2.json'
 coco_json_file = local_path + coco_manifest
 job_name = 'deepfashion2'

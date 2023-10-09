@@ -14,6 +14,9 @@ AWS Rekognition demo, using some images of the DeepFashion2 dataset.
   - Create a S3 bucket
   - Upload all images in the S3 using the path "images/"
 
+  for convenience we used this schema for the bucket :
+  ![s3_schema](S3.pnj)
+
 ## `Build`
 
  - Change the s3_bucket_name in coco_to_manifest.py.

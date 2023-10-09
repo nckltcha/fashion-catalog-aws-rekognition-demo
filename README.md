@@ -15,7 +15,8 @@ AWS Rekognition demo, using some images of the DeepFashion2 dataset.
   - Upload all images in the S3 using the path "images/"
 
   for convenience we used this schema for the bucket :
-  ![s3_schema](S3.pnj)
+
+  ![s3_schema](S3.jpg)
 
 ## `Build`
 
